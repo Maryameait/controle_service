@@ -17,10 +17,8 @@ public class Campagne {
     private LocalDate dateDebut;
     private LocalDate dateFin;
 
-    // Nouveau champ 'active' pour indiquer si la campagne est active ou non
     private boolean active;
 
-    // Getters et Setters si nécessaire (générés par Lombok @Data)
     public Long getId() {
         return id;
     }
