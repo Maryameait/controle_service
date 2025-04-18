@@ -1,5 +1,6 @@
 package org.example.controle_service.controllers;
 
+import jakarta.validation.Valid;
 import org.example.controle_service.dto.DonDTO;
 import org.example.controle_service.projections.CampagneResume;
 import org.example.controle_service.services.ServiceCampagne;
@@ -30,4 +31,5 @@ public class ApiController {
         donDTO.setId(id);
         serviceDon.enregistrerDon(donDTO);
     }
+
 }
